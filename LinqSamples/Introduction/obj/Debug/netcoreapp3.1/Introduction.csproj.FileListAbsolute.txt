@@ -1,0 +1,13 @@
+C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Allen_LINQ_Fundamentals\code\LinqSamples\Introduction\bin\Debug\netcoreapp3.1\Introduction.exe
+C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Allen_LINQ_Fundamentals\code\LinqSamples\Introduction\bin\Debug\netcoreapp3.1\Introduction.deps.json
+C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Allen_LINQ_Fundamentals\code\LinqSamples\Introduction\bin\Debug\netcoreapp3.1\Introduction.runtimeconfig.json
+C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Allen_LINQ_Fundamentals\code\LinqSamples\Introduction\bin\Debug\netcoreapp3.1\Introduction.runtimeconfig.dev.json
+C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Allen_LINQ_Fundamentals\code\LinqSamples\Introduction\bin\Debug\netcoreapp3.1\Introduction.dll
+C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Allen_LINQ_Fundamentals\code\LinqSamples\Introduction\bin\Debug\netcoreapp3.1\Introduction.pdb
+C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Allen_LINQ_Fundamentals\code\LinqSamples\Introduction\obj\Debug\netcoreapp3.1\Introduction.csprojAssemblyReference.cache
+C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Allen_LINQ_Fundamentals\code\LinqSamples\Introduction\obj\Debug\netcoreapp3.1\Introduction.csproj.CoreCompileInputs.cache
+C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Allen_LINQ_Fundamentals\code\LinqSamples\Introduction\obj\Debug\netcoreapp3.1\Introduction.AssemblyInfoInputs.cache
+C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Allen_LINQ_Fundamentals\code\LinqSamples\Introduction\obj\Debug\netcoreapp3.1\Introduction.AssemblyInfo.cs
+C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Allen_LINQ_Fundamentals\code\LinqSamples\Introduction\obj\Debug\netcoreapp3.1\Introduction.dll
+C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Allen_LINQ_Fundamentals\code\LinqSamples\Introduction\obj\Debug\netcoreapp3.1\Introduction.pdb
+C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Allen_LINQ_Fundamentals\code\LinqSamples\Introduction\obj\Debug\netcoreapp3.1\Introduction.genruntimeconfig.cache

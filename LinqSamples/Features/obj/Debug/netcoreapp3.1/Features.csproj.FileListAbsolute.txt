@@ -1,0 +1,13 @@
+C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Allen_LINQ_Fundamentals\code\LinqSamples\Features\bin\Debug\netcoreapp3.1\Features.exe
+C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Allen_LINQ_Fundamentals\code\LinqSamples\Features\bin\Debug\netcoreapp3.1\Features.deps.json
+C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Allen_LINQ_Fundamentals\code\LinqSamples\Features\bin\Debug\netcoreapp3.1\Features.runtimeconfig.json
+C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Allen_LINQ_Fundamentals\code\LinqSamples\Features\bin\Debug\netcoreapp3.1\Features.runtimeconfig.dev.json
+C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Allen_LINQ_Fundamentals\code\LinqSamples\Features\bin\Debug\netcoreapp3.1\Features.dll
+C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Allen_LINQ_Fundamentals\code\LinqSamples\Features\bin\Debug\netcoreapp3.1\Features.pdb
+C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Allen_LINQ_Fundamentals\code\LinqSamples\Features\obj\Debug\netcoreapp3.1\Features.csprojAssemblyReference.cache
+C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Allen_LINQ_Fundamentals\code\LinqSamples\Features\obj\Debug\netcoreapp3.1\Features.csproj.CoreCompileInputs.cache
+C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Allen_LINQ_Fundamentals\code\LinqSamples\Features\obj\Debug\netcoreapp3.1\Features.AssemblyInfoInputs.cache
+C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Allen_LINQ_Fundamentals\code\LinqSamples\Features\obj\Debug\netcoreapp3.1\Features.AssemblyInfo.cs
+C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Allen_LINQ_Fundamentals\code\LinqSamples\Features\obj\Debug\netcoreapp3.1\Features.dll
+C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Allen_LINQ_Fundamentals\code\LinqSamples\Features\obj\Debug\netcoreapp3.1\Features.pdb
+C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Allen_LINQ_Fundamentals\code\LinqSamples\Features\obj\Debug\netcoreapp3.1\Features.genruntimeconfig.cache
