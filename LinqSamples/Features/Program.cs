@@ -27,6 +27,8 @@ namespace Features
                 new Employee { Id = 3, Name = "John"},
                 new Employee { Id = 4, Name = "Sally"},
                 new Employee { Id = 5, Name = "Robert"},
+                new Employee { Id = 6, Name = "Ann"},
+                new Employee { Id = 7, Name = "Janny"},
                 new Employee { Id = 2, Name = "Chris"}
             };
 
@@ -35,10 +37,11 @@ namespace Features
                 new Employee { Id = 3, Name = "Alex"}
             };
 
-            var query = developers.Where(e => e.Name.Length == 5).OrderBy(e => e.Name);
+            var query = developers.Where(e => e.Name.Length == 5).OrderByDescending(e => e.Name);
+
             var query2 = from employee in developers
                          where employee.Name.Length == 5
-                         orderby employee.Name
+                         orderby employee.Name descending
                          select employee;
 
             foreach (var employee in query2)
