@@ -7,6 +7,7 @@ using System.Xml.Linq;
 using System.Net.NetworkInformation;
 using System.Net.WebSockets;
 using System.Diagnostics.Tracing;
+using System.Data.Entity;
 
 namespace Cars
 {
@@ -14,9 +15,61 @@ namespace Cars
     {
         static void Main(string[] args)
         {
-            CreateXml();
-            QueryXml();
+            Database.SetInitializer(new DropCreateDatabaseIfModelChanges<CarDb>());
+            InsertData();
+            QueryData();
 
+        }
+
+        private static void QueryData()
+        {
+            var db = new CarDb();
+            db.Database.Log = Console.WriteLine;
+
+            var query = db.Cars.GroupBy(c => c.Manufacturer)
+                               .Select(g => new
+                               {
+                                   Name = g.Key,
+                                   Cars = g.OrderByDescending(c => c.Combined).Take(2)
+                               });
+
+            var query2 = db.Cars.Where(c => c.Manufacturer == "BMW")
+                               .OrderByDescending(c => c.Combined)
+                               .ThenBy(c => c.Name)
+                               .Take(10)
+                               .ToList();
+
+            foreach (var group in query)
+            {
+                Console.WriteLine(group.Name);
+                foreach (var car in group.Cars)
+                {
+                    Console.WriteLine($"\t{car.Name,-35} : { car.Combined}");
+                }
+            }
+
+            //Console.WriteLine(query.Count());
+            //foreach(var car in query2)
+            //{
+            //    Console.WriteLine($"{car.Name, -35} : { car.Combined}");
+            //}
+        }
+        
+
+        private static void InsertData()
+        {
+            var cars = ProcessCars("fuel.csv");
+            var db = new CarDb();
+            //db.Database.Log = Console.WriteLine;
+
+            if (!db.Cars.Any())
+            {
+                foreach (var car in cars)
+                {
+                    db.Cars.Add(car);
+                }
+                db.SaveChanges();
+            }
         }
 
         private static void QueryXml()
